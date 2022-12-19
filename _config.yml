@@ -1,7 +1,7 @@
 # Setup
-title:               A new knowledge node
-tagline:             'A Jekyll theme, testing away ..'
-description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:               A place to think and build
+tagline:             '-'
+description:         'A place to think and to build'
 url:                 'https://Jakob37.github.io'
 # url:                 https://lanyon.getpoole.com
 baseurl:             'https://Jakob37.github.io/'
@@ -10,7 +10,7 @@ permalink:           pretty
 
 # About/contact
 author:
-  name:              Mark Otto
+  name:              Jakob Willforss
   url:               https://twitter.com/jakobwillforss
   email:             jakob@jakobwillforss.com
 
