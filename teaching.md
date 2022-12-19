@@ -10,3 +10,5 @@ title: Teaching materials
 * First steps with Git
 * Introduction to Snakemake
 * Shiny from scratch - Hands on tutorial
+* Reproducible research for bioinformaticians
+* Amplicon sequencing hands-on workshop
