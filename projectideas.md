@@ -7,6 +7,10 @@ I am searching for hard, meaningful projects where my knowledge could make an im
 
 For now, this page is a scratch.
 
+# TO-DO next
+
+* Write a post clarifying for myself how I would like to use this project and how I would like to work with it
+
 # Ongoing projects
 
 Books:
