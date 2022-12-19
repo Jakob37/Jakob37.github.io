@@ -15,4 +15,4 @@ My hope is that this will help me clearer see what comes next. What I can do bey
 
 For now, this page will be fragmented, because that is how I do my "overview-thinking". Then I gradually refine, circling into the target. So bear with me, if you wish.
 
-Don't hestitate to reach out! At the moment, ![LinkedIn](https://www.linkedin.com/in/jakobwillforss) is probably the best place to find me.
+Don't hestitate to reach out! At the moment, [LinkedIn](https://www.linkedin.com/in/jakobwillforss) is probably the best place to find me.
