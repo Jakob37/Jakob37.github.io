@@ -27,3 +27,21 @@ Development:
 
 * Summarize the learnings from Advent of Code in Rust
 * Summarize the learnings from the mind sketching so far (and think through what technology I should go for)
+* Pick a book and write a summary of what I learned
+* Reflections on parenthood
+
+# To explore
+
+* What intersections between what I would like to do and my current experience is there
+
+# To do
+
+* Kaggle datasets in machine learning
+* Sequence my genome and analyze it
+* Fast omics data visualizations using D3 (OmicLoupe)
+* Make a dendrogram in D3 and publish it as a D3 package
+* Build a collection of bioinformatics D3 data visualizations
+
+# To think about
+
+* Is this site separate from a portfolio site?
