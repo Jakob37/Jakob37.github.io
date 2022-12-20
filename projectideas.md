@@ -10,6 +10,7 @@ For now, this page is a scratch.
 # TO-DO next
 
 * Write a post clarifying for myself how I would like to use this project and how I would like to work with it
+* Release From Earth to Earth online (Kongregate, Steam?)
 
 # Ongoing projects
 
