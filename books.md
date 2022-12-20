@@ -3,7 +3,9 @@ layout: page
 title: Books
 ---
 
-Particularly interesting books I have read could go here
+I enjoy reading books, to expand my horizons beyond what I have thought before.
+
+I'll jot down some thoughts here on the technical books I read, and recommend some personal favorites.
 
 [My Goodreads](https://www.goodreads.com/user/show/96631549-jakob)
 
