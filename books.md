@@ -28,13 +28,13 @@ Particularly interesting books I have read could go here
 
 # Ten recommendations
 
-* [Man's Search for Meaning]
-* [One Flew Over the Cuckoo's Nest]
-* [Wild Swans: Three Daughters of China]
-* [The Status Game: On Social Position and How We Use It]
-* [Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones]
-* [Deng Xiaoping and the Transformation of China]
-* [The Rise and Fall of the Third Reich: A History of Nazi Germany]
-* [Nine Lives: My time as the West's top spy inside al-Qaeda]
-* [Never Split the Difference: Negotiating As If Your Life Depended On It]
-* [Basic Economics: A Citizen's Guide to the Economy]
+* [Man's Search for Meaning](https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning)
+* [One Flew Over the Cuckoo's Nest](https://www.goodreads.com/book/show/332613.One_Flew_Over_the_Cuckoo_s_Nest)
+* [Wild Swans: Three Daughters of China](https://www.goodreads.com/book/show/1848.Wild_Swans)
+* [The Status Game: On Social Position and How We Use It](https://www.goodreads.com/book/show/58642436-the-status-game)
+* [Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones](https://www.goodreads.com/book/show/40121378-atomic-habits)
+* [Deng Xiaoping and the Transformation of China](https://www.goodreads.com/book/show/11472345-deng-xiaoping-and-the-transformation-of-china)
+* [The Rise and Fall of the Third Reich: A History of Nazi Germany](https://www.goodreads.com/book/show/767171.The_Rise_and_Fall_of_the_Third_Reich)
+* [Nine Lives: My time as the West's top spy inside al-Qaeda](https://www.goodreads.com/book/show/40199693-nine-lives)
+* [Never Split the Difference: Negotiating As If Your Life Depended On It](https://www.goodreads.com/book/show/26156469-never-split-the-difference)
+* [Basic Economics: A Citizen's Guide to the Economy](https://www.goodreads.com/book/show/3023.Basic_Economics)
