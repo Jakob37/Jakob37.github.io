@@ -105,6 +105,105 @@ No comments
 
 ## Tobias Rausch - Cancer genomics and epigenetics
 
+### Cancer genomics and its caveats
+
+* Sequencing provides snapshot in time and space
+* DNA-sequencing can provide
+    * Tumor phylogeny & tumor evolution
+    * Tumor cell content (tumor purity)
+    * Tumor heterogeneity (subclonality)
+    * Tumor ploidy (number of copies of each chromosome)
+    * Interplay of somatic and germline mutations (elaborate)
+* Whole genome duplication - pretty common in many cancer types
+* Tumor heterogeneity and tumor evolution
+* Complexity in bulk sequencing - many cancer types are sequenced together
+* Germline versus somatic variants
+    * Germline
+        * Present in egg or sperm
+        * Inherited
+        * May be predisposing (two-hit hypothesis) and may cause cancer family syndrome
+    * Somatic variants
+        * Not heritable
+        * Non-germline tissue
+        * Only passed to descendants of that mutant cell
+        * Different in each cancer, where recurrence indicates selective advantage
+* Germline BRCA1 mutations (PTVs ?) influence somatic mutation landscape
+* Cancer genomics data analysis
+    * DNA variant detection (snv, indel)
+    * Careful here with sequencing errors - insertions, deletions, basecalling errors
+* Higher-level variant discovery
+    * Short indels
+    * Copy-number variations (CNVs)
+    * Structural variants (SVs)
+* Cancer genomics workflow
+    * Tumor BAM + Normal BAM
+    * Variant genotyping
+    * Variants from germline + somatic + wildtype
+    * Distinguish somatic mutations from germline mutations
+* Challenges in somatic variant calling
+    * Usual assumptions does not hold
+        * Diploid genome
+        * Homogeneous sample (no subclones)
+        * Pure sample
+    * Somatic calling sensitivity decreases rapidly for tumor in normal contamination
+    * Verification by orthogonal method often required
+        * PCR & Sanger
+        * Target capture (?)
+* Sequencing depth
+    * 30x often too low for cancer genomics
+* Estimating tumor parameters
+    * Read-depth segmentation
+    * SNP allele frequencies
+    * Somatic variant allele frequency
+    * External supporting data
+        * Digital karyotype
+        * Tumor cell content estimation by pathologists
+* Tumor / Normal read depth ratio
+    * Read counting in windows for tumor and normal data
+    * Log2 ratio for each window
+    * Chromosome-wide plot
+* Variant allele frequency
+    * Copy number variants will cause shift in B-allele frequency of het. SNPs
+    * Allele frequency is influenced by tumor purity
+* LOH (?) to estimate purity?
+* Further caveats
+    * Human errors
+        * Sample swaps
+        * Cross-sample contamination
+        * DNA-quality (FFPE, degraded DNA)
+    * Visually check allele frequencies normal to tumor
+    * Check for contaminated germline (?)
+    * Check for read-group/lane swaps
+* Mutational signatures
+* Large-scale chromosome abberrations (structural variants)
+* Additional challenges in somatic structural variant calling
+    * Comprehensive detection usually requires complementary assays and additional normalizaion techniques (GC content)
+    * Breakpoints are often imprecise
+    * Baseline is not necessarily copy-number 2
+    * Incomplete copy-number polymorphism map
+    * Incomplete understanding of SV mechanisms & structure
+    * Methods tend to have high false positive rate
+    * Complex rearrangements are difficult to disentangle
+    * SV detection usually requires WGS, exome data provides incomplete view
+* Summary - keep in mind
+    * Samples
+        * Avoid low-input or degraded DNA (FFPE samples are risky)
+        * Pathologists can overestimate tumor purity
+        * Include matched control and be aware of tumor in normal contamination
+    * Library construction & sequencing parameters
+        * Check duplication rates, multiple libraries reduce PCR error rates
+        * Higher coverage is needed for impure tumors & heterogeneous tumors
+        * Clonal architecture cannot be inferred with 30x
+        * WES is not suitable for CNV & SV detection
+    * Variant calling
+        * Sub-clonal variants (<15% VAF) are difficult to detect
+        * Using multiple callers is valuable in practice
+        * Indels and SV are more difficult to detect
+        * Samples from multiple time-points / locations help tracking clonal evolution and inferring the clonal architecture of tumor specimen
+    * Validations
+        * Orthogonal sequencing methods (PCR + sanger, targeted/custom capture, arrays, long-read sequencing) to help assess variant calling FDRs
+        * Interpreting somatic variants can be facilitated by means of integrating transcriptome (RNA-seq) and epigenome datasets with genomics read outs
+
 # Day 2
 
 ## Mathieu Bourgey - SNV introduction

@@ -46,6 +46,7 @@ Development:
 * Fast omics data visualizations using D3 (OmicLoupe)
 * Make a dendrogram in D3 and publish it as a D3 package
 * Build a collection of bioinformatics D3 data visualizations
+* Writing a step-wise introduction of biology for dummies and bioinformaticians
 
 # To think about
 
